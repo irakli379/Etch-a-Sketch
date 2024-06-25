@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  padding: 3.5rem 2rem;
+}
+
+.cont {
+  height: 50vh;
+  width: 50vh;
+  background-color: black;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: aqua;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  width: 17vh;
+}
+
+.btnCont {
+  display: flex;
+  justify-content: center;
+}
